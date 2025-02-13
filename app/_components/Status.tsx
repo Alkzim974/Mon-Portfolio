@@ -2,6 +2,7 @@ import { Card } from "@/components/ui/card";
 import { Section } from "./Section";
 import { Biohazard, Cake, Code, LucideIcon, School } from "lucide-react";
 import ContactModal from "./ContactModal";
+import { Button } from "@/components/ui/button";
 
 export const Status = () => {
     return (
@@ -42,7 +43,6 @@ export const Status = () => {
                 </div>
             </Card>
             <Card className="text-center hover:bg-accent/50 transition-colors p-3 rounded"><ContactModal /></Card>
-            
         </div>
     </Section> 
     );

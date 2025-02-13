@@ -10,9 +10,9 @@ import { TwitchIcon } from "./icons/TwitchIcon";
 
 export const Header = () => {
     return (
-        <header className="sticky top-0 py-4">
+        <header className="sticky bg-background/80 top-0 py-4">
             <Section className="flex items-baseline">
-                <h1 className="text-lg font-bold text-primary-foreground text-[#FAFAFA]">
+                <h1 className="text-lg font-bold text-primary  text-[#FAFAFA]">
                     alexandrecasimir.com
                 </h1>
                 <div className="flex-1"/>
